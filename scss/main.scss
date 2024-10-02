@@ -1,0 +1,42 @@
+@use 'variables';
+@use 'base';
+@use 'mixins';
+@use 'layout';
+@use 'components';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .gallery-image {
+        width: 100px; 
+        height: 75px; 
+    }
+}
+
+  
