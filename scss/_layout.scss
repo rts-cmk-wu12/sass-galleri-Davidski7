@@ -1,0 +1,38 @@
+@use 'variables';
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.gallery__row {
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 0 4px;
+}
+
+.gallery__column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery__image {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery__column {
+      flex: 50%;
+      max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery__column {
+      flex: 100%;
+      max-width: 100%;
+  }
+}

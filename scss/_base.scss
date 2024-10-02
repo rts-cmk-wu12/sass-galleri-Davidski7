@@ -1,0 +1,25 @@
+@use 'variables'; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: variables.$font-stack; 
+    color: variables.$font-color; 
+    background-color: variables.$secondary-color; 
+}
+
+a {
+    text-decoration: none;
+    color: variables.$primary-color; 
+
+    &:hover {
+        color: darken(variables.$primary-color, 10%);
+    }
+}
+
+
+  
